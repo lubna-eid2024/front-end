@@ -1,0 +1,213 @@
+/* تنسيق صوره الاولى */
+        .three{text-align: center;
+        border-style: solid;
+    border-radius: 50%;
+width: 100px;
+height: 100px;
+object-fit: cover;
+margin-bottom: 10px;
+
+}
+/*  تنسي الفقره الاولى*/
+.two{text-align: center;
+color: rgba(0, 0, 0, 0.112) ;}
+/* تنسيق زار الاول */
+.four{text-align: center;
+background-color: #6c63ff;
+color: #fff;
+width: 100px;
+height: 40px;
+color: #777;
+font-size: 0.9em;
+margin: 5px 0;
+padding: 10px 20px;
+border:none;
+border-radius: 5px;
+transition: background-color 0.3s;
+cursor:pointer;
+
+}
+.four:hover{background-color: #574bdf;}
+/* تنسيق div الاولى */
+.five{border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    
+
+text-align: center;
+display: inline-block;
+width: 426px;
+background-color: #fff;
+border: 1px solid #ddd;
+transition: transform 0.3s;}
+.five:hover{transform: scale(1.05);}
+/*  تنسيق divتانيه*/
+.six{
+    border:1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+background-color: #fff;
+border-radius: 8px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: tansfom 0.3s;
+}
+.six:hover{transform: scale(1.05);}
+    /*  تنسيق الصوره التانيه*/
+    .siven{text-align: center;
+        border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+
+}
+/*  تنسيق زار تاني*/
+.a{text-align: center;
+    background-color: #6c63ff;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    color: #777;
+    font-size: 0.9em;
+    margin: 5px 0;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor:pointer;
+}
+    .a:hover{background-color: #574bdf;}
+
+    /*  تنسيق الفقره تانيه*/
+    .egg{text-align: center;
+        color: #777;
+    font-size: 0.9em;
+margin: 5px 0;
+display: inline-block;}
+/* تنسي divتالته */
+.b{
+    
+        border:1px solid #ddd;
+        text-align: center;
+        float:right;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: tansfom 0.3s;
+    }
+    .b:hover{transform: scale(1.05);}
+    
+    /* style image 3 */
+    .c{
+        text-align: center;
+        border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    }
+    /* style text3 */
+    .d{text-align: center;
+        color: #777;
+    font-size: 0.9em;
+margin: 5px 0;
+float:right;}
+.e{
+    text-align: center;
+    background-color: #6c63ff;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    color: #777;
+    font-size: 0.9em;
+    margin: 5px 0;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor:pointer;
+}
+    .e:hover{background-color: #574bdf;}
+
+        /* تنسيق div تالته */
+        /* .b{ border:1px solid #ddd;
+            text-align: center;
+            display: inline-block;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: tansfom 0.3s;}
+            .b:hover{transform: scale(1.05);} */
+           /* .b{
+                border:1px solid #ddd;
+                text-align: center;
+                display: inline-block;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: tansfom 0.3s;
+            }
+            .six:hover{transform: scale(1.05);} */
+            /*  تنسي الصوره تالته*/
+            /* .c{text-align: center;
+                border: 1px solid #ddd;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+            display: inline-block;
+        } */
+         /* .c{text-align: center;
+            border: 1px solid #ddd;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 10px;
+        display: inline-block;
+    
+    
+    } */
+        /*   تنسيق الفقره تالته*/
+        /* .d{text-align: center;
+            color: #777;
+        font-size: 0.9em;
+    margin: 5px 0;
+display: inline-block;} */
+    
+         /* تنسيق زار تالت */
+            /* .e{text-align: center;
+                background-color: #6c63ff;
+                color: #fff;
+                width: 100px;
+                height: 40px;
+                color: #777;
+                font-size: 0.9em;
+                margin: 5px 0;
+                padding: 10px 20px;
+                border:none;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+                cursor:pointer;
+            display: inline-block;} */
+/* .e:hover{background-color: #574bdf;} */
+                body{font-family: Arial, Helvetica, sans-serif;
+                display: inline-block;
+            background-color: #f8f8f8;
+        margin: 0;
+    padding: 20px;}
+    h1{font-size: 2em;
+    margin-bottom: 10px;}
+
+    /* تنسيق دولار الاول */
+    .price{color:#333;
+    font-weight:bold;
+margin: 10px 0;}

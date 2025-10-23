@@ -1,0 +1,35 @@
+body{background-image: url(imge/images.jpeg);
+background-repeat: no-repeat;
+background-position: 100px 100px 100px 100px;
+background-size:cover;
+background-attachment: fixed;
+margin-left:80px;
+margin-top: 200px;
+margin-bottom: 200px;
+}
+h1{text-transform: uppercase;
+line-height:2px;
+color:white}
+h2{text-transform: capitalize;
+color: wheat;
+}
+p{color: white;
+line-height: 5px;
+}
+
+.a{line-height: 1px;
+color: white;
+border-radius: 15px;
+height: 30px;
+width: 90px;
+margin-top: 10px;
+margin-left: 10px;
+}
+.b{color: white;
+    background-color: blue;
+    width:100px;
+    height: 30px;
+    margin-left: 20px;
+
+}
+    

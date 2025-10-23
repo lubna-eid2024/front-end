@@ -1,0 +1,32 @@
+body{width: 500px;}
+h1{border-color: aqua;
+width: 20%;
+border-style: solid;
+padding: 50px;
+margin: 500px;}
+h2{border-color: aquamarine;
+    width: 20%;
+    border-style: dotted;
+    padding: 50px;
+    margin: auto;}
+    h3{border-color: rgb(255, 0, 106);
+        width: 20%;
+        border-style: dashed;
+        padding: 50px;
+        margin: 400px;}
+        h4{border-color: rgb(123, 255, 0);
+            width: 20%;
+            border-style: double;
+            padding: 50px;
+            margin: 300px;}
+            h5{border-color: rgb(255, 153, 0);
+                width: 20%;
+                border-style: groove;
+                padding: 50px;
+                margin: 200px;}
+                h6{border: red;
+                    width: 20%;
+                    border-style: double;
+                    padding: 50px;
+                    margin: 100px;}
+                    

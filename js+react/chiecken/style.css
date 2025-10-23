@@ -1,0 +1,29 @@
+.checken {
+  width: 100px;
+}
+body {
+  text-align: center;
+  border: 1px solid wheat;
+  margin: 20px;
+
+  padding: 5px;
+}
+ /* .games{
+    width: 800;
+    height: 600;
+}  */
+ /* .canvas {
+  display: none;
+} */
+
+/* games {
+  display: block;
+}  */
+#canvas img{
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  display: none;
+  /* text-align: center; */
+}
+

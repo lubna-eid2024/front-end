@@ -1,0 +1,28 @@
+.containar{
+background-color:black;
+height: 100px;
+display: flex;
+flex-direction: column;
+
+align-items: flex-end;
+
+}
+.item1{background-color: red;}
+.item2{
+    background-color: yellow;
+}
+.item3{background-color: orangered;}
+.item4{background-color: blue;}
+/* 
+flex-diection===>row
+align-items===>columns
+algin-contaent===>colums
+flex-direction===>colums
+align-items===>row
+algin-contaent===>row
+
+
+
+
+
+*/

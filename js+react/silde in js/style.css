@@ -1,0 +1,54 @@
+/* .slide-content {
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    max-height: 0;
+  }
+  
+  .slide-content.open {
+    max-height: 500px; /* يجب تعديل هذه القيمة حسب المحتوى */
+/* .slide-content {
+  overflow: hidden;
+  transition: max-height 0.5 ease-in-out;
+  -webkit-transition: max-height 0.5 ease-in-out;
+  -moz-transition: max-height 0.5 ease-in-out;
+  -ms-transition: max-height 0.5 ease-in-out;
+  -o-transition: max-height 0.5 ease-in-out;
+  max-height: 0;
+}
+.open {
+  max-height: 300px;
+} */
+/* .slide-element {
+    width: 300px;
+    margin-right: -300px; /* يبدأ مخفيًا */
+    /* transition: margin-right 0.5s ease-in-out;
+  }
+  
+  .slide-element.active {
+    margin-right: 0; /* يظهر كاملاً */
+  /* } */ 
+  .container {
+    width: 100%;
+    height: 150px; /* ارتفاع مناسب */
+    position: relative;
+    overflow: hidden; /* أهم سطر في الكود */
+    border: 1px solid #ddd; /* فقط للتحديد البصري */
+  }
+  
+  .slider {
+    width: 100%;
+    height: 100%;
+    background: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -100%; /* يبدأ مخفيًا تمامًا على اليمين */
+    top: 0;
+    transition: right 0.7s ease-in-out; /* حركة سلسة */
+  }
+  
+  .slider.active {
+    right: 0; /* ينتهي عند الحافة اليمنى للحاوية */
+  }
