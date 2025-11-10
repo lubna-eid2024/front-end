@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./component/Navbar/Navbar";
 
-import APIProduct from "./component/APIComponent/APIProduct";
+// import APIProduct from "./component/APIComponent/APIProduct";
 import ProductData from "./component/Product/ProductData";
 
 function App() {
