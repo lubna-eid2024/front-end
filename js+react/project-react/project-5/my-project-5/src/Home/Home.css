@@ -3,68 +3,31 @@
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 1.6;
-  box-sizing: border-box;
-}
-
-
-.header-section {
-  position: relative;
-}
-
-.header-image {
-  height: 60vh;
-  object-fit: cover;
-}
-
-
-.about-section {
-  padding: 60px 0;
-}
-
-.about-image {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: cover;
-}
-
-.section-title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  letter-spacing: 2px;
-}
-
-.description {
-  color: #555;
-  line-height: 1.8;
-}
-
-.seasonal-badge {
-  background-color: #6c757d;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
-
-
-.menu-section {
-  padding: 60px 0;
 }
 
 .menu-items {
-  padding: 0 15px;
+  margin-left: 50px;
 }
 
 .menu-item {
   padding: 15px 0;
-  border-bottom: 1px solid #eee;
+}
+.contact {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.contact h4 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  /* line-height: 54px; */
+}
+.contact p {
+  font-size: 15px;
+}
+.catering {
+  color: #607d8b;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .item-title {
@@ -79,7 +42,6 @@
   margin: 0;
 }
 
-/* Divider */
 .divider {
   border: none;
   border-top: 1px solid #ddd;
@@ -87,71 +49,68 @@
   width: 80%;
 }
 
-
 @media (max-width: 768px) {
   * {
     letter-spacing: 0.5px;
     line-height: 1.5;
   }
-  
+
   .header-image {
     height: 40vh;
   }
-  
+
   .section-title {
     font-size: 1.8rem;
   }
-  
+
   .about-content {
     text-align: center !important;
     margin-top: 2rem;
   }
-  
+
   .menu-items {
     padding: 0 10px;
   }
 }
-
 
 @media (max-width: 576px) {
   * {
     font-size: 14px;
     letter-spacing: 0.3px;
   }
-  
+
   .header-image {
     height: 30vh;
   }
-  
+
   .section-title {
     font-size: 1.5rem;
   }
-  
+
   .about-section,
   .menu-section {
     padding: 40px 0;
   }
-  
+
   .menu-item {
     padding: 12px 0;
   }
-  
+
   .item-title {
     font-size: 1.1rem;
   }
-  
+
   .divider {
     margin: 2rem auto;
     width: 90%;
   }
 }
 
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
-  
+
   .about-image {
     max-height: 600px;
   }
@@ -162,11 +121,11 @@
   * {
     font-size: 13px;
   }
-  
+
   .section-title {
     font-size: 1.3rem;
   }
-  
+
   .menu-items {
     padding: 0 5px;
   }
@@ -186,4 +145,14 @@
 
 .about-image:hover {
   transform: scale(1.02);
+}
+.send{
+  background-color: #CCCCCC;
+  font-size: 15px;
+  border: 0;
+  width: 200px;
+  height: 50px;
+}
+.footer{
+  background-color: #F1F1F1;
 }

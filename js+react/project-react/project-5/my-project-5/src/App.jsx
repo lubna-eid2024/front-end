@@ -3,23 +3,26 @@ import Navbar from "./Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home/Home";
 import About from "./About/About";
-import Menue from "./Menue/Menue";
+import Menu from "./Menu/Menu";
 import Contact from "./Contact/Contact";
 import "./App.css";
-export default function App() {
+import SendMassege from "./sendmsessage/SendMassege";
+
+function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <Home></Home>
-      <About></About>
-      <Menue></Menue>
-      <Contact></Contact>
+
       <Routes>
-        <Route element={<Home />} path="/"></Route>
-        <Route element={<About></About>} path="/About"></Route>
-        <Route element={<Menue></Menue>} path="/Menue"></Route>
-        <Route element={<Contact></Contact>} path="/Contact"></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/SendMassege" element={<SendMassege />} />
       </Routes>
     </>
   );
 }
+
+export default App;

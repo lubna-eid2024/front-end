@@ -1,0 +1,40 @@
+.schools {
+  background-color: #ffffcc;
+
+}
+/* تحسينات التجاوب لـ SendMassege */
+@media (max-width: 768px) {
+  .d-flex.flex-row.align-items-center {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1rem !important;
+  }
+  
+  .d-flex.flex-row.align-items-center > div {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .d-flex.flex-row.align-items-center > div:last-child {
+    border-bottom: none;
+  }
+  
+  .container-fluid h1 {
+    font-size: 1.5rem;
+  }
+  
+  .container-fluid p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 15px;
+  }
+  
+  .container-fluid h1 {
+    font-size: 1.25rem;
+  }
+}
