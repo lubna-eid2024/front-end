@@ -1,0 +1,17 @@
+.image{
+    width: 100px;
+}
+.card{
+    width: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: red;
+    color: white;
+    margin: 15px;
+}
+.card{
+    padding: 30px;
+    margin: 15px;
+}
