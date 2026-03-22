@@ -1,0 +1,27 @@
+.add{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 100px;
+
+}
+.list{
+    list-style: none;
+    font-weight: bold;
+}
+.listcon{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.delete{
+    background-color: red;
+    color: white;
+    margin: 20px;
+
+   justify-content: end;
+   width: 100px;
+}
+.item{
+text-decoration: line-through;
+   
+}
