@@ -1,0 +1,52 @@
+/* .images{
+    width: 100px;
+} */
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  padding: 30px;
+  margin: 30px;
+}
+.labalInput {
+  font-weight: bold;
+}
+.contronls {
+}
+.addBox {
+}
+
+.con {
+  display: flex;
+}
+.add {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.add:hover {
+  background-color: aqua;
+  color: azure;
+}
+.delete {
+  background-color: red;
+  border-radius:15px;
+  color: white;
+  -webkit-border-radius:15px;
+  -moz-border-radius:15px;
+  -ms-border-radius:15px;
+  -o-border-radius:15px;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+}
